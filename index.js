@@ -13,7 +13,7 @@ import AlbumList from './src/components/AlbumList';
 // self closing tags for empty tags (nested components)
 const App = () => {
     return(
-        <View>
+        <View style={{ flex:1 }}>
             <Header headerText={'Header from index.js'} />
             <AlbumList />
         </View>
